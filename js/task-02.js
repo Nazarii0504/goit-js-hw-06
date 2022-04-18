@@ -15,4 +15,4 @@ const elements = ingredients.map(function (ingredient) {
   listEl.textContent = `${ingredient}`;
   return listEl;
 });
-  menuEl.append(...elements);
+  menuEl.append(...elements); 
